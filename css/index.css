@@ -1,0 +1,111 @@
+/* styles.css */
+
+/* Allgemeine Stile für den gesamten Körper der Webseite */
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+}
+
+/* Stile für den Bannerbereich */
+.banner {
+    background: url('https://s3-us-west-2.amazonaws.com/files.bradengelhardt.com/brad-bg-main.jpg') no-repeat center center/cover;
+    color: #fff;
+    text-align: center;
+    padding: 50px 20px;
+}
+
+/* Stile für die sozialen Medien Links im Banner */
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+.social {
+    color: #fff;
+    font-size: 24px;
+}
+
+/* Stile für die Social Icons und deren Farben beim Hover */
+.instagram:hover {
+    background: linear-gradient(45deg, #405DE6, #5851DB, #833AB4, #C13584, #E1306C, #FD1D1D, #F56040, #F77737, #FCAF45);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.facebook:hover { color: #3B5998; }
+.github:hover { color: #333; }
+.linkedin:hover { color: #0e76a8; }
+
+/* Stile für den Abschnitt "Über mich" und "Meine Projekte" */
+.about, .projects {
+    padding: 20px;
+    text-align: center;
+}
+
+/* Stile für die Slideshow */
+.slideshow-container {
+    position: relative;
+    max-width: 1000px;
+    margin: auto;
+    overflow: hidden;
+}
+
+.mySlides {
+    display: none;
+    text-align: center;
+}
+
+.mySlides img {
+    width: 100%;
+}
+
+/* Stile für die Buttons zum Navigieren durch die Slideshow */
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+.prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+}
+
+/* Stile für die Bildunterschrift in der Slideshow */
+.text {
+    color: #fff;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+/* Stile für den Footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
